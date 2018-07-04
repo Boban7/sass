@@ -1,0 +1,69 @@
+$prima-col: DodgerBlue;
+$prima-bg: linear-gradient(90deg, pink, yellow);
+$second-col: blue;
+
+body{
+	background: $prima-bg;
+	color: $prima-col;
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border: 3px $prima-col solid;
+	background: $prima-bg;
+	overflow: auto;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+li{
+	float: left;
+	border-right: 3px $prima-col solid;
+	margin: 0;
+	padding: 0;
+}
+
+li:last-child{border-right: none;}
+
+a{
+	display: block;
+	text-decoration: none;
+	color: $second-col;
+	padding: 20px;
+	font-weight: bold;
+}
+
+a:hover{
+	background-color: $prima-col;
+	color: white;
+}
+
+h1, h2{
+	color: $second-col;
+	text-align: center;
+}
+
+div{
+	margin-top: 50px;
+	padding: 5px 20px;
+	height: 2000px;
+}
+
+p{
+	text-align: justify;
+	text-indent: 20px;
+}
+
+a:active{
+	background-color: $second-col;
+	color: #fff; 
+}
+
+h2, h1:target{
+	padding-top: 80px;
+}

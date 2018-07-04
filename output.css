@@ -1,0 +1,58 @@
+body {
+  background: linear-gradient(90deg, pink, yellow);
+  color: DodgerBlue;
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 3px DodgerBlue solid;
+  background: linear-gradient(90deg, pink, yellow);
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+li {
+  float: left;
+  border-right: 3px DodgerBlue solid;
+  margin: 0;
+  padding: 0; }
+
+li:last-child {
+  border-right: none; }
+
+a {
+  display: block;
+  text-decoration: none;
+  color: blue;
+  padding: 20px;
+  font-weight: bold; }
+
+a:hover {
+  background-color: DodgerBlue;
+  color: white; }
+
+h1, h2 {
+  color: blue;
+  text-align: center; }
+
+div {
+  margin-top: 50px;
+  padding: 5px 20px;
+  height: 2000px; }
+
+p {
+  text-align: justify;
+  text-indent: 20px; }
+
+a:active {
+  background-color: blue;
+  color: #fff; }
+
+h2, h1:target {
+  padding-top: 80px; }
+
+/*# sourceMappingURL=output.css.map */
